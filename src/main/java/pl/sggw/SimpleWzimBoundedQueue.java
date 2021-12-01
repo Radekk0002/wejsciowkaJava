@@ -84,7 +84,7 @@ public class SimpleWzimBoundedQueue<E> implements WzimBoundedQueue<E> {
             front = -1;
             rear = -1;
         }
-        
+
         front = front + 1;
         size--;
 
